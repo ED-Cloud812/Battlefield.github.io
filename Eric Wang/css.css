@@ -1,0 +1,64 @@
+body{
+	background-image: 
+	url(https://i.insider.com/5be9a11d66be5010be4d75a2?width=1100&format=jpeg&auto=webp);
+	background-size:1920px 1080px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: fixed;
+	background-size: cover;
+.topnav{
+background-color: beige;
+overflow: hidden;
+}
+.topnav a{
+float: left;
+color: blue;
+padding: 14px;
+text-decoration: none;
+font-size: 15px;
+}
+.topnav a:hover{
+background-color: black;
+color:white;
+}
+.topnav a.active{
+background-color: lightblue;
+color:black;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+p.one{
+	color: white;
+}
+
+p.two{
+	color: white;
+}
+
+p.three{
+	color: white;
+}
+
+a{
+	color: white;
+}
+.attention{
+	background-color: white;
+	font-family: Arial;
+	font-size: 60px;
+
+}
